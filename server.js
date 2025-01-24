@@ -5,7 +5,7 @@ import { getOrignalurl, shorturl } from './controller.js';
 const app = express();
 
 // Connect to MongoDB
-mongoose.connect('mongodb://127.0.0.1:27017/url', {
+mongoose.connect('MONGO_DB_URL', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 })
